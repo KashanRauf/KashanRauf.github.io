@@ -1,0 +1,17 @@
+h1 {
+color: white;
+background-color: #9cf;
+padding: 8px;
+border-top: 1px solid #c0ffff;
+border-right: 1px solid #00f;
+border-bottom: 1px solid #00f;
+border-left: 1px solid #c0ffff;
+font-size: 50px;
+
+}
+
+p  {
+color: red;
+font-family: courier;
+font-size: 160%;
+}
