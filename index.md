@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+<html>
     <head>
-        <title>RIS | Home</title>
+        <title class="topcorner">RIS | Home</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <h1>Raha International School</h1>
 
+        <br>
+        
         <div class="navbar">
             <a href="https://www.ris.ae">
                 <img src="RIS.jpg">
@@ -14,7 +17,7 @@
 
             <div class="dropdown">
                 <!-- Home button -->
-                <button class="dropbtn">Home</button>
+                <button id="currentPage" class="dropbtn">Home</button>
                     <div class="dropdown-content">
                         <a href="Home.html#Home1.1">Link 1</a>
                         <a href="Home.html#Home1.2">Link 2</a>
@@ -50,3 +53,4 @@
         </div>
 
     </body>
+    </html>
