@@ -103,6 +103,14 @@ a:hover {
   float: left;
 }
 
+th {
+  text-align: left;
+}
+
+.text {
+  text-align: top;
+}
+
 #main-content {
   background-color: #ffffff;
   padding: 1px 5px;
