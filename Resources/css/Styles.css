@@ -105,6 +105,13 @@ a:hover {
 
 th {
   text-align: left;
+  font-family: Helvetica;
+  font-size: 24px;
+}
+
+td {
+  font-family: Arial;
+  font-size: 16px;
 }
 
 .text {
