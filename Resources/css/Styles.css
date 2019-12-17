@@ -139,5 +139,5 @@ td > .okayimage {
 }
 
 #frickedpng {
-  float: center;
+  align-content: center;
 }
