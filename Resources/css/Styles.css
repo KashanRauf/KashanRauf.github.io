@@ -94,7 +94,7 @@ a:hover {
 
 /* MAIN BODY STYLES (<H3>, <P>, <IMG> STYLES) */
 img {
-  float: right;
+  float: center;
   margin-left: 15px;
 }
 
