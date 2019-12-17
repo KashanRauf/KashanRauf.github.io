@@ -127,6 +127,10 @@ td {
   list-style-type: none;
 }
 
+td {
+  text-align: left;
+}
+
 td > img {
   border: solid 1px darkgray;
   width: 300px;
