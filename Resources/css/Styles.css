@@ -131,7 +131,7 @@ td {
   text-align: left;
 }
 
-td > img {
+td > .okayimage {
   border: solid 1px darkgray;
   width: 300px;
 }
