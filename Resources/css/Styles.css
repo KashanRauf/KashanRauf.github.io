@@ -93,9 +93,8 @@ a:hover {
 }
 
 /* MAIN BODY STYLES (<H3>, <P>, <IMG> STYLES) */
-.image {
+img {
   float: right;
-  border: solid 1px darkgray;
   margin-left: 15px;
 }
 
