@@ -127,6 +127,11 @@ td {
   list-style-type: none;
 }
 
+td > img {
+  border: solid 1px darkgray;
+  width: 300px;
+}
+
 .invisible {
   opacity: 0;
 }
