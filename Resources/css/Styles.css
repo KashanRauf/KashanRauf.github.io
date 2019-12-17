@@ -132,6 +132,10 @@ td > img {
   width: 300px;
 }
 
+td > .aesthetic-thing {
+  text-align: center;
+}
+
 .invisible {
   opacity: 0;
 }
