@@ -126,3 +126,7 @@ td {
   display: flow-root;
   list-style-type: none;
 }
+
+.invisible {
+  opacity: 0;
+}
