@@ -1,3 +1,70 @@
 /* Color scheme */
 /* Spacing index e.g. 4px, 8px, etc... */
 /* Font size index */
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+MAIN COLOR: 
+  TINTS: 
+GRAY COLOR: 
+  TINTS: 
+
+ICON PACK: 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+
+}
+
+nav {
+  display: flex;
+  margin: 20px 10vw;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+nav > a, nav > a:visited {
+  text-decoration: none;
+  color: black;
+  padding: 20px 32px;
+  border: 1px solid red;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main {
+  padding: 0 8vw;
+}
+
+.bio {
+
+}
+
+.section-header {
+
+}
+
+.profile-photo > img{
+  width: 15vw;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-subname {
+  font-size: 20px;
+}
