@@ -18,9 +18,10 @@ ICON PACK:
 
 :root {
   --main-col: #3F4773;
-  --gray-1: #c74c5d;
+  --gray-1: #C74C5D;
   --gray-2: #F7F7F2;
-  --highlight-col: #c74c5d;
+  --gray-2-alt: #F7F7F2ca;
+  --highlight-col: #C74C5D;
 }
 
 * {
@@ -179,6 +180,39 @@ main {
   margin-bottom: 12px;
 }
 
+.subsection-entry {
+  
+  margin: 12px 0;
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    letter-spacing: .09em;
+  }
+
+  .entry-body {
+    letter-spacing: .07em;
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      margin-left: 24px;
+
+      li {
+        margin-bottom: 4px;
+        letter-spacing: .04em;
+        color: var(--gray-2-alt);
+      }
+    }
+
+    img {
+      margin-left: 18px;
+      max-width: 275px;
+      height: auto;
+    }
+  }
+}
 
 /* SVG Icons */
 .socials {
