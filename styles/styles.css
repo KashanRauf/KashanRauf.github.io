@@ -102,7 +102,6 @@ main {
 .subsection {
   padding: 20vh 0;
   margin-bottom: 12vh;
-  scroll-snap-align: start;
 }
 
 #bio {
@@ -181,8 +180,8 @@ main {
 }
 
 .subsection-entry {
-  
   margin: 12px 0;
+
   .entry-header {
     display: flex;
     justify-content: space-between;
@@ -208,8 +207,9 @@ main {
 
     img {
       margin-left: 18px;
-      max-width: 275px;
-      height: auto;
+      max-width: 30%;
+      aspect-ratio: initial;
+      align-self:flex-start
     }
   }
 }
