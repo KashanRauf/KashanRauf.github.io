@@ -189,6 +189,15 @@ main {
     letter-spacing: .09em;
   }
 
+  h3 > a, h3 > a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  h3 > a:hover {
+    text-decoration: underline;
+  }
+
   .entry-body {
     letter-spacing: .07em;
     padding: 0 8px;
