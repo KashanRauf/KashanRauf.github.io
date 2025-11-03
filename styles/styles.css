@@ -233,4 +233,10 @@ main {
 .social {
   height: 36px;
   width: 36px;
+  
+}
+
+.smaller {
+  width: 32px;
+
 }
