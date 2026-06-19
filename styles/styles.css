@@ -12,8 +12,6 @@ GRAY COLOR 1: #c74c5d
 GRAY COLOR 2: ##F7F7F2
   TINTS: 
 HIGHLIGHT COLOR: #c74c5d
-
-ICON PACK: 
 */
 
 :root {
@@ -40,21 +38,37 @@ body {
   height: 100vh;
 }
 
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 32px;
+  padding-right: 0;
   border-bottom: solid 4px var(--gray-1);
+}
+
+/* SVG Icons */
+.socials {
+  & a, a:hover, a:visited {
+    text-decoration: none;
+  }
+}
+.social {
+  height: 36px;
+  width: 36px;
+  
+}
+.smaller {
+  width: 32px;
 }
 
 nav {
   height: 100%;
 }
 
-.quick-links > ul {
+.quick-links ul {
   display: flex;
-  width: 30vw;
   align-items: center;
   height: 100%;
   list-style: none;
@@ -77,6 +91,16 @@ nav {
   a, a:hover, a:visited {
     color: inherit;
     text-decoration: none;
+  }
+}
+
+nav.quick-links ul {
+  width: 30vw;  
+}
+
+div.quick-links ul {
+  li {
+    padding: 10px 16px;
   }
 }
 
@@ -221,22 +245,4 @@ main {
       align-self:flex-start
     }
   }
-}
-
-/* SVG Icons */
-.socials {
-  & a, a:hover, a:visited {
-    text-decoration: none;
-  }
-}
-
-.social {
-  height: 36px;
-  width: 36px;
-  
-}
-
-.smaller {
-  width: 32px;
-
 }
